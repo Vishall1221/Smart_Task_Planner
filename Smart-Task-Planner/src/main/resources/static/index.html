@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Task Planner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Task Planner</h1>
+
+    <form id="goalForm" class="card">
+      <label for="goalInput">Enter your goal</label>
+      <input
+        id="goalInput"
+        type="text"
+        placeholder="e.g. Launch a new mobile app in 3 weeks"
+        required
+      />
+      <button type="submit">Generate Plan</button>
+    </form>
+
+    <div id="status" class="status"></div>
+
+    <div id="result" class="card hidden">
+      <div class="result-header">
+        <h2>Generated Plan</h2>
+        <button id="downloadBtn" class="secondary">Download JSON</button>
+      </div>
+      <table id="tasksTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Task</th>
+            <th>Duration</th>
+            <th>Dependencies</th>
+          </tr>
+        </thead>
+        <tbody id="tasksBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
