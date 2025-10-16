@@ -1,0 +1,55 @@
+🧠 Smart Task Planner
+
+A smart productivity tool built to help users efficiently plan, organize, and track their daily tasks.
+This project provides an intuitive interface to add, manage, and visualize tasks, along with smart prioritization and reminders.
+
+🚀 Features
+
+📅 Create, edit, and delete tasks easily
+⏰ Set deadlines and reminders
+⭐ Prioritize tasks by urgency or importance
+📊 View daily / weekly summary of completed tasks
+☁️ Persistent storage (local or cloud-ready)
+🧠 Smart recommendations for time optimization (optional ML logic can be integrated)
+
+🏗️ Tech Stack
+
+Frontend: HTML, CSS, JavaScript (or React, if applicable)
+Backend: Java / Spring Boot (customize as per your project)
+Database: MySQL / SQLite / Firebase
+Version Control: Git & GitHub
+
+⚙️ Installation
+
+Clone the repository:
+git clone https://github.com/Vishall1221/Smart_Task_Planner.git
+
+Navigate to the project folder:
+cd Smart_Task_Planner
+
+If you’re using Maven:
+mvn clean install
+
+
+Run the application:
+java -jar target/Smart_Task_Planner.jar
+
+🧩 Folder Structure
+Smart_Task_Planner/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   └── resources/
+│   └── test/
+├── pom.xml / package.json
+├── README.md
+└── .gitignore
+
+👨‍💻 Author
+
+Vishal P
+B.Tech CSE (Data Science), VIT Vellore
+AWS Certified Solutions Architect – Associate
+
+
+.
